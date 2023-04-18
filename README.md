@@ -2,8 +2,6 @@
 
 CLOUD COMPUTING - UE20CS351
 
-# Project: Implementing Raft Logic in Go
-
 ## **In this project, you will:**
 
 1. Learn the basics of GoLang.
