@@ -8,6 +8,7 @@ import (
 /* startElectionTimer implements an election timer. It should be launched whenever
 we want to start a timer towards becoming a candidate in a new election.
 This function runs as a go routine */
+
 func (this *RaftNode) startElectionTimer() {
 	timeoutDuration := time.Duration(3000+rand.Intn(3000)) * time.Millisecond
 	this.mu.Lock()
